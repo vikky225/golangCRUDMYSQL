@@ -75,6 +75,8 @@ Content-Type: application/json
 </details>
 
 ### Notes:
+<summary>
 - Ensure that the URLs (`http://localhost:9010`) match your actual application configuration.
 - Replace placeholder values (like book IDs) with real data as per your application's behavior.
 - The code blocks for JSON and bash commands are formatted using triple backticks (\`\`\`) followed by the language identifier (`json` or `bash`), ensuring they display correctly with syntax highlighting in markdown previews.
+</summary>
