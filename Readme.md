@@ -28,10 +28,10 @@ to make sure mysql is up and running you should have Docker installed in your ma
 
 ### Creating the book
 
-```
+
 POST http://localhost:9010/api/bookstore/books
 Content-Type: application/json
-
+```json
 {
     "Name": "Zero to One",
     "Author": "post1Authocccr",
@@ -59,13 +59,13 @@ DELETE http://localhost:9010/api/bookstore/books/5
 
 
 ### Update book by id 
-```
+
 PUT http://localhost:9010/api/bookstore/books/6
 Content-Type: application/json
-
+```json
 {
 
   "name": "Zero to One",
   "author": "updating",
   "publication": "Animal"
-}```
+}
