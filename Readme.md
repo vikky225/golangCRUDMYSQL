@@ -30,13 +30,15 @@ to make sure mysql is up and running you should have Docker installed in your ma
 
 
 POST http://localhost:9010/api/bookstore/books
-Content-Type: application/json
+
 ```json
+Content-Type: application/json
+
 {
     "Name": "Zero to One",
     "Author": "post1Authocccr",
     "Publication": "Animal"
-}```
+}
 
 
 ### Getting all the books
