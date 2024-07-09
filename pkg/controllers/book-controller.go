@@ -36,6 +36,7 @@ func CreateBook(w http.ResponseWriter, r *http.Request) {
 	newBook := &models.Book{}
 	utils.ParseBody(r, newBook)
 	book := newBook.CreateBook()
+	
 	res, _ := json.Marshal(book)
 	w.WriteHeader(http.StatusOK)
 	w.Write(res)
